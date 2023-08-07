@@ -16,9 +16,9 @@ export default function Navbar() {
 
   console.log(theme)
   return (
-    <div className="flex items-center justify-between w-full">
+    <div className="flex items-center justify-between w-full px-60 py-10">
       <div
-        className="cursor-pointer border px-4 py-2 border-solid border-[1px] border-[#b5b5b5] rounded-full shadow-lg"
+        className="cursor-pointer border px-4 py-2 border-solid border-[1px] border-[#b5b5b5] rounded-full shadow-lg mr-10"
         onClick={toggleTheme}
       >
         {theme === 'light' ? <MdOutlineLightMode /> : <BiSolidMoon />}

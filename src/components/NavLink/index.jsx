@@ -11,16 +11,16 @@ export default function NavLinks() {
       link: '#home',
     },
     {
-      name: 'About',
-      link: '#about',
+      name: 'Projects',
+      link: '#projects',
     },
     {
-      name: 'Privacy',
-      link: '#privacy',
+      name: 'Ressources',
+      link: '#ressources',
     },
     {
-      name: 'Terms',
-      link: '#terms',
+      name: 'Words',
+      link: '#words',
     },
   ]
 
