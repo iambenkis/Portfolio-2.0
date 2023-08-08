@@ -8,19 +8,19 @@ export default function NavLinks() {
   let links = [
     {
       name: 'Home',
-      link: '#home',
+      link: 'home',
     },
     {
       name: 'Projects',
-      link: '#projects',
+      link: 'projects',
     },
     {
       name: 'Ressources',
-      link: '#ressources',
+      link: 'ressources',
     },
     {
       name: 'Words',
-      link: '#words',
+      link: 'words',
     },
   ]
 
