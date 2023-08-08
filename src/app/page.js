@@ -3,6 +3,9 @@ import Image from 'next/image'
 import Navbar from '@/components/Navbar'
 import Header from '@/pages/Home'
 import Projects from '@/components/Projects'
+import LifeUpdate from '@/components/LifeUpdate'
+import Whatsapp from '@/components/Whatsapp'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -11,6 +14,9 @@ export default function Home() {
       <div className="px-80 py-10">
         <Header />
         <Projects />
+        <LifeUpdate />
+        <Whatsapp />
+        <Footer />
       </div>
     </main>
   )
