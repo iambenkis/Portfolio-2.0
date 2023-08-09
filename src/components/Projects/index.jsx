@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <section className="mt-10">
       <div>
-        <h3 class="font-bold text-2xl md:text-4xl tracking-tight mb-4 text-black dark:text-white">
+        <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 text-black dark:text-white">
           Projects
         </h3>
         <ProjectItems projects={projects} />
@@ -32,7 +32,7 @@ export default function Projects() {
           </svg>
         </a>
       </div>
-      <div className="mt-10">
+      <div className="mt-4">
         <h3 class="font-bold text-2xl md:text-4xl tracking-tight mb-4 text-black dark:text-white">
           Upcomming Projects
         </h3>
