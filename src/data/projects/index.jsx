@@ -1,3 +1,4 @@
+'use client'
 import { IoFastFood } from 'react-icons/io5'
 
 export const projects = [
@@ -74,7 +75,7 @@ export const UpcommingProjects = [
     source: 'https://github.com',
   },
   {
-    name: 'More projects coming soon...',
+    name: 'More projects coming soon',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptatum.',
     // stacks: ['React', 'Next.js', 'TailwindCSS'],
@@ -85,7 +86,7 @@ export const UpcommingProjects = [
 
 export default function ProjectItems(props) {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div className="grid grid-cols-2 gap-4">
       {props.projects.map((project, index) => (
         <a
           key={index}
@@ -93,7 +94,7 @@ export default function ProjectItems(props) {
           target="_blaket"
           className="border-solid border-[1px] border-[#b5b5b5] rounded-xl shadow-lg p-4"
         >
-          <IoFastFood className="h-8 text-[50px] mx-2 my-4" />
+          <IoFastFood className="text-black-300 text-3xl mx-2 my-4" />
           <h3 className="font-bold">{project.name}</h3>
           <p className="text-[#374151] my-2">{project.description}</p>
           <ul className="flex flex-wrap mt-4">
@@ -101,7 +102,7 @@ export default function ProjectItems(props) {
               project.stacks.map((stack, index) => (
                 <li
                   key={index}
-                  className="leading-5 mb-2 dark:border dark:border-zinc-700 text-gray-700 dark:text-gray-300 dark:bg-transparent rounded-md text-xs italic bg-gray-100  mr-2 px-1"
+                  className=" italic leading-5 mb-2 dark:border dark:border-zinc-700 text-gray-700 dark:text-gray-300 dark:bg-transparent rounded-md text-xs bg-gray-100  mr-2 px-1"
                 >
                   {stack}
                 </li>
