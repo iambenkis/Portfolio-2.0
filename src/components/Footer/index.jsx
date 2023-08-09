@@ -10,7 +10,7 @@ const footerObj = {
 
 export default function Footer() {
   return (
-    <footer className="mt-10 border-t-[1px] pt-5">
+    <footer className="w-full mt-10 border-t-[1px]">
       <ul className="grid grid-cols-3 gap-4 flex justify-center text-gray-400">
         <li>
           <ul>
