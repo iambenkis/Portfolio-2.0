@@ -13,8 +13,6 @@ export default function Navbar() {
       setTheme('light')
     }
   }
-
-  console.log(theme)
   return (
     <div className="flex items-center justify-between w-full px-60 py-10">
       <div
