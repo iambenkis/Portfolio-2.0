@@ -10,7 +10,7 @@ export default function Whatsapp() {
           <p className="text-gray-800">
             Drop your message and let's discuss about your project.
           </p>
-          <button className="bg-green-400 w-full p-2 rounded-lg font-bold my-3">
+          <button className="bg-green-400 w-full p-2 rounded-lg font-bold my-5">
             Chat on Whatsapp
           </button>
         </div>
