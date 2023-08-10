@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className="flex justify-between">
       <div className="mr-5">
-        <h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-2 text-black dark:text-white">
+        <h1 class="font-bold text-[#172b4d] text-3xl md:text-5xl tracking-tight mb-2 text-black dark:text-white">
           Benjamin Kisege
         </h1>
         <p>
