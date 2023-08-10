@@ -6,6 +6,7 @@ import NavLinks from '../NavLink'
 
 export default function Navbar() {
   const [theme, setTheme] = useState('light')
+  const [show, setShow] = useState(false)
   const toggleTheme = () => {
     if (theme === 'light') {
       setTheme('dark')
@@ -14,7 +15,7 @@ export default function Navbar() {
     }
   }
   return (
-    <div className="flex items-center justify-between w-full px-60 py-10">
+    <div className="fixed flex items-center justify-between w-full px-60 py-7 backdrop-blur-md bg-black/55 ">
       <div
         className="cursor-pointer border px-4 py-2 border-solid border-[1px] border-[#b5b5b5] rounded-full shadow-lg mr-10"
         onClick={toggleTheme}
