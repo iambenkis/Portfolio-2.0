@@ -1,13 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
 export default function Whatsapp() {
   return (
-    <section className="bg-[#EEF9FE] p-5 rounded-lg">
+    <section className="bg-blue-50 p-5 mt-10 border-blue-100 border rounded-lg">
       <div>
-        <div className="border-b-[1px] pb-5">
+        <div className="border-b-[1px]  pb-5">
           <h3 className="font-bold text-[20px] tracking-tight text-black dark:text-white">
             Want to hire me as a fullstack developerr? Let's discuss.
           </h3>
-          <p className="text-gray-800">
+          <p className="text-gray-600">
             Drop your message and let's discuss about your project.
           </p>
           <button className="bg-green-400 w-full p-2 rounded-lg font-bold my-5">
@@ -15,7 +15,7 @@ export default function Whatsapp() {
           </button>
         </div>
         <div className="mt-5">
-          <p className="text-gray-800">
+          <p className="text-gray-600">
             Drop in your email ID and I will get back to you.{' '}
           </p>
           <div className="relative my-5">
