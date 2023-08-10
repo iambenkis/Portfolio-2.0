@@ -3,15 +3,15 @@ import { TbBrandNextjs } from 'react-icons/tb'
 import { TbTargetArrow } from 'react-icons/tb'
 
 const footerObj = {
-  pages: ['Home', 'Blog', 'Dashboard', 'Projects', 'Links'],
+  pages: ['Home', 'Blog', 'Dashboard', 'Projects', 'Skills'],
   addresses: ['GitHub', 'LinkedIn', 'Twitter', 'Instagram', 'Freelancing'],
   more: ['About', 'Contact', 'Privacy', 'Terms'],
 }
 
 export default function Footer() {
   return (
-    <footer className="w-full mt-10 border-t-[1px]">
-      <ul className="grid grid-cols-3 gap-4 flex justify-center text-gray-400">
+    <footer className="w-full px-80 py-10 pt-4 bg-neutral-100">
+      <ul className="grid grid-cols-3 gap-4 flex justify-center text-gray-500 border-t-[1px]">
         <li>
           <ul>
             {footerObj.pages.map((page, index) => (
