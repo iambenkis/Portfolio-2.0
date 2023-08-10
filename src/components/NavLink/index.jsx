@@ -15,8 +15,8 @@ export default function NavLinks() {
       link: 'projects',
     },
     {
-      name: 'Ressources',
-      link: 'ressources',
+      name: 'Blog',
+      link: 'blog',
     },
     {
       name: 'Words',
@@ -25,7 +25,7 @@ export default function NavLinks() {
   ]
 
   return (
-    <div className="flex space-x-4 px-4 justify-center border-solid border-[1px] border-[#b5b5b5] rounded-full shadow-lg">
+    <div className="bg-neutral-100 flex space-x-4 px-4 justify-center border-solid border-[1px] border-[#b5b5b5] rounded-full shadow-lg">
       {links.map((navLink, index) => (
         <Link
           key={navLink.name}
@@ -37,13 +37,13 @@ export default function NavLinks() {
           <AnimatePresence>
             {hoveredIndex === index && (
               <motion.span
-                className="absolute inset-0 bg-[#f0f0f0]"
+                className="absolute inset-0 bg-gray-300"
                 layoutId="hoverBackground"
                 initial={{ opacity: 0 }}
-                animate={{ opacity: 1, transition: { duration: 0.15 } }}
+                animate={{ opacity: 1, transition: { duration: 1 } }}
                 exit={{
                   opacity: 0,
-                  transition: { duration: 0.15, delay: 0.2 },
+                  transition: { duration: 1, delay: 0.2 },
                 }}
               />
             )}
