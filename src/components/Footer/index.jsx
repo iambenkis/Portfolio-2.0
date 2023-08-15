@@ -3,9 +3,9 @@ import { TbBrandNextjs } from 'react-icons/tb'
 import { TbTargetArrow } from 'react-icons/tb'
 
 const footerObj = {
-  pages: ['Home', 'Blog', 'Dashboard', 'Projects', 'Skills'],
-  addresses: ['GitHub', 'LinkedIn', 'Twitter', 'Instagram', 'Freelancing'],
-  more: ['About', 'Contact', 'Privacy', 'Terms'],
+  pages: ['home', 'projects', 'blog', 'about'],
+  addresses: ['GitHub', 'LinkedIn', 'Twitter', 'Instagram'],
+  more: ['Dashboard', 'Testimonials', 'Contact'],
 }
 
 export default function Footer() {
@@ -16,7 +16,12 @@ export default function Footer() {
           <ul>
             {footerObj.pages.map((page, index) => (
               <li key={index} className="py-2">
-                <a href="">{page} </a>
+                <a
+                  href={`/${page === 'home' ? '' : page}`}
+                  className="capitalize"
+                >
+                  {page}{' '}
+                </a>
               </li>
             ))}
           </ul>
