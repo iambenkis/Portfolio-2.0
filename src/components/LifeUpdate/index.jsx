@@ -1,5 +1,5 @@
 'use client'
-import { lifeupdates } from '@/data/lifeProgress'
+import { lifeupdates } from '../../data/lifeProgress'
 import { BsPatchCheckFill } from 'react-icons/bs'
 
 import { useState } from 'react'
