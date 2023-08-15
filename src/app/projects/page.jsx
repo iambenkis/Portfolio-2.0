@@ -1,6 +1,6 @@
-import ProjectItems from '@/data/projects'
-import { projects } from '@/data/projects'
-import { UpcommingProjects } from '@/data/projects'
+import ProjectItems from '../../data/projects'
+import { projects } from '../../data/projects'
+import { UpcommingProjects } from '../../data/projects'
 import { VscGithub } from 'react-icons/vsc'
 
 const Project = () => {
