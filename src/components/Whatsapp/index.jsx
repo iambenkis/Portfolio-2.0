@@ -10,9 +10,14 @@ export default function Whatsapp() {
           <p className="text-gray-600">
             Drop your message and let's discuss about your project.
           </p>
-          <button className="bg-green-400 w-full p-2 rounded-lg font-bold my-5">
-            Chat on Whatsapp
-          </button>
+          <a
+            href="https://wa.me/250783865032?text=I want to work on a project with you"
+            class="mt-4 px-4 text-center w-full font-bold h-8 bg-green-400 dark:bg-green-400 text-gray-900 py-1 dark:text-gray-900 rounded"
+            type="submit"
+            target="_blank"
+          >
+            Chat on WhatsApp
+          </a>
         </div>
         <div className="mt-5">
           <p className="text-gray-600">
@@ -20,7 +25,8 @@ export default function Whatsapp() {
           </p>
           <div className="relative my-5">
             <input
-              type="text"
+              type="email"
+              autoComplete="email"
               className="p-3 w-full"
               placeholder="benkisenge03@gmail.com"
             />
