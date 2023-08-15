@@ -19,8 +19,8 @@ export default function NavLinks() {
       link: 'blog',
     },
     {
-      name: 'Words',
-      link: 'words',
+      name: 'About',
+      link: 'about',
     },
   ]
 
