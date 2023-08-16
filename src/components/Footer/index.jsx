@@ -1,11 +1,12 @@
 import { BiLogoTailwindCss } from 'react-icons/bi'
 import { TbBrandNextjs } from 'react-icons/tb'
 import { TbTargetArrow } from 'react-icons/tb'
+import Link from 'next/link'
 
 const footerObj = {
   pages: ['home', 'projects', 'blog', 'about'],
   addresses: ['GitHub', 'LinkedIn', 'Twitter', 'Instagram'],
-  more: ['Dashboard', 'Testimonials', 'Contact'],
+  more: ['dashboard', 'testimonials', 'contact'],
 }
 
 export default function Footer() {
@@ -16,12 +17,12 @@ export default function Footer() {
           <ul>
             {footerObj.pages.map((page, index) => (
               <li key={index} className="py-2">
-                <a
+                <Link
                   href={`/${page === 'home' ? '' : page}`}
                   className="capitalize"
                 >
                   {page}{' '}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -30,7 +31,7 @@ export default function Footer() {
           <ul>
             {footerObj.addresses.map((address, index) => (
               <li key={index} className="py-2">
-                <a href="">{address}</a>
+                <Link href={`/${address}`}>{address}</Link>
               </li>
             ))}
           </ul>
@@ -39,7 +40,9 @@ export default function Footer() {
           <ul>
             {footerObj.more.map((more, index) => (
               <li key={index} className="py-2">
-                <a>{more}</a>
+                <Link href={`/${more}`} className="capitalize">
+                  {more}
+                </Link>
               </li>
             ))}
           </ul>
