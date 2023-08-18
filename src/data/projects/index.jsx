@@ -101,7 +101,7 @@ export const UpcommingProjects = [
 
 export default function ProjectItems(props) {
   return (
-    <div className="grid grid-cols-2 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       {props.projects.slice(0, props.toDisplay).map((project, index) => (
         <a
           key={index}
@@ -118,7 +118,7 @@ export default function ProjectItems(props) {
                 project.stacks.map((stack, index) => (
                   <li
                     key={index}
-                    className=" italic leading-5 mb-2 dark:border dark:border-zinc-700 text-gray-700 dark:text-gray-300 dark:bg-transparent rounded-md text-xs bg-gray-100  mr-2 px-1"
+                    className=" italic leading-5 mb-2 dark:border dark:border-zinc-700 text-gray-700 dark:text-gray-300 dark:bg-transparent rounded-md text-xs bg-gray-200  mr-2 px-1"
                   >
                     {stack}
                   </li>
