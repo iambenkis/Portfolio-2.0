@@ -17,7 +17,7 @@ export default function LifeUpdate() {
   }
 
   return (
-    <section className="mt-10">
+    <section className="px-7 md:px-1 mt-10">
       <div>
         <h3 className="font-bold text-[#172b4d] text-2xl md:text-4xl tracking-tight mb-4 text-black dark:text-white">
           Life ChangeLog and Updates
@@ -26,7 +26,7 @@ export default function LifeUpdate() {
           {lifeupdates.slice(0, toSlice).map((lifeupdate) => (
             <li
               key={lifeupdate.title}
-              className="border-b-[1px] m-5 last:border-b-0"
+              className="border-b-[1px] mb-7 last:border-b-0"
             >
               <h3 className="font-bold text-sx mb-4">{lifeupdate.year}</h3>
               <span className="flex items-center mx-3 my-2">
