@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 export default function Whatsapp() {
   return (
-    <section className="bg-blue-50 p-5 mt-10 border-blue-100 border rounded-lg">
+    <section className="bg-blue-50 mx-7 md:mx-0 p-5 mt-10 border-blue-100 border rounded">
       <div>
         <div className="border-b-[1px]  pb-5">
           <h3 className="font-bold text-[20px] tracking-tight text-black dark:text-white">
@@ -27,12 +27,12 @@ export default function Whatsapp() {
             <input
               type="email"
               autoComplete="email"
-              className="p-3 w-full"
+              className="p-3 w-full rounded"
               placeholder="benkisenge03@gmail.com"
             />
             <input
               type="button"
-              className="absolute right-4 top-[6px] bg-gray-100 rounded-lg px-10 py-[5px] cursor-pointer"
+              className="absolute right-1 top-[6.5px] bg-gray-100 rounded-lg px-7 py-[7px] cursor-pointer"
               value="Send"
             />
           </div>
