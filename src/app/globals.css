@@ -25,3 +25,21 @@ body {
     )
     rgb(var(--background-start-rgb)); */
 }
+
+.mobile-nav {
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .side-text {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+}

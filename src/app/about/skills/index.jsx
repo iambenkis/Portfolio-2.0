@@ -1,28 +1,22 @@
 'use client'
 import { DiJavascript, DiRuby } from 'react-icons/di'
 import { TbBrandCpp } from 'react-icons/tb'
-import { useRouter } from 'next/navigation'
-
-const about = ['DEVELOPMENT', 'DESIGN', 'TECH SOLUTIONS', 'DEVELOPMENT']
 
 export default function Skills() {
-  const routes = useRouter()
-
-  console.log(routes)
   return (
     <div className="">
       <div>
-        <h3 className="absolute origin-center rotate-90 underline  left-[16rem] mt-10 font-bold text-[#172b4d] text-sm mb-4 uppercase">
+        <h3 className="side-text absolute origin-center rotate-90 underline  left-[16rem] mt-10 font-bold text-[#172b4d] text-sm mb-4 uppercase">
           what i do
         </h3>
-        <div className="flex">
-          <div className="w-[60%] mr-7">
+        <div className="flex flex-col md:flex-row">
+          <div className="md:w-[60%] w-full mr-7 ">
             <h4 className="font-bold  text-[30px] mb-4 uppercase">
-              MY MISSION IS <br />
-              <span className="text-[#172b4d]">DESIGN & DEVELOP</span> THE BEST
+              MY MISSION IS
+              <span className="text-[#172b4d]"> DESIGN & DEVELOP</span> THE BEST
               WEBSITES AROUND
             </h4>
-            <p className="text-gray-400 text-justify">
+            <p className="text-gray-400 text-justify mt-4 md:mt-0">
               I can help you build a product , feature or website Look through
               some of my work and experience! If you like what you see and have
               a project you need coded, don’t hesitate to contact me.

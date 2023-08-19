@@ -1,11 +1,12 @@
 import ProjectItems from '../../data/projects'
 import { projects } from '../../data/projects'
 import { UpcommingProjects } from '../../data/projects'
+import Whatsapp from '../../components/Whatsapp'
 import { VscGithub } from 'react-icons/vsc'
 
 const Project = () => {
   return (
-    <div className="bg-neutral-100 px-80 py-10">
+    <div className="bg-neutral-100 py-10 px-7 md:px-80">
       <div className="pb-10 pt-10 mt-10">
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 text-black dark:text-white">
           Projects
@@ -22,7 +23,7 @@ const Project = () => {
         <ProjectItems projects={projects} toDisplay={5} />
         <a
           type="button"
-          class="flex w-[20%] px-5 py-3 justify-center items-center text-sm my-4 mx-auto px-4 py-[8px] border border-gray-300 rounded-md font-medium text-gray-900 dark:text-gray-100 hover:bg-gradient-to-r from-blue-200/50 to-yellow-200/25 transition duration-500 hover-underlined"
+          class="flex w-[50%] md:w-[20%] px-5 md:px-5  justify-center items-center text-sm my-4 mx-auto py-[8px] border border-gray-300 rounded-md font-medium text-gray-900 dark:text-gray-100 hover:bg-gradient-to-r from-blue-200/50 to-yellow-200/25 transition duration-500 hover-underlined"
           href="https://github.com/iambenkis"
           target="_blank"
         >
@@ -35,6 +36,7 @@ const Project = () => {
         </h3>
         <ProjectItems projects={UpcommingProjects} />
       </div>
+      <Whatsapp />
     </div>
   )
 }
