@@ -3,8 +3,11 @@ import { projects } from '../../data/projects'
 import { UpcommingProjects } from '../../data/projects'
 import Whatsapp from '../../components/Whatsapp'
 import { VscGithub } from 'react-icons/vsc'
+import { ThemeContext } from '../../utils/context'
+import { useContext } from 'react'
 
 const Project = () => {
+  // const { theme } = useContext(ThemeContext)
   return (
     <div className="bg-neutral-100 py-10 px-7 md:px-80">
       <div className="pb-10 pt-10 mt-10">
