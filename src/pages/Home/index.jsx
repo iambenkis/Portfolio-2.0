@@ -28,7 +28,7 @@ export default function Header() {
           for Coffee Chat.
         </p>
       </div>
-      <div className="w-[120px] mt-[-30px] ml-5 p-2 rounded mb-4 md:w-[220px]">
+      <div className="w-[180px] mt-[-30px] ml-5 p-2 rounded mb-4 md:w-[220px]">
         <Image
           src={benkisImage}
           alt="benkis"
