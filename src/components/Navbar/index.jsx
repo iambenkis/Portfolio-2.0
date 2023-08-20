@@ -5,19 +5,41 @@ import { useState } from 'react'
 import NavLinks from '../NavLink'
 import Link from 'next/link'
 import { FiMenu } from 'react-icons/fi'
+import { useContext } from 'react'
+import { ThemeContext } from '../../utils/context'
 
 export default function Navbar() {
-  const [theme, setTheme] = useState('light')
+  // const [theme, setTheme] = useState('light')
   const [show, setShow] = useState(false)
-  const toggleTheme = () => {
-    if (theme === 'light') {
-      setTheme('dark')
-    } else {
-      setTheme('light')
-    }
+  // const toggleTheme = () => {
+  //   if (theme === 'light') {
+  //     setTheme('dark')
+  //   } else {
+  //     setTheme('light')
+  //   }
+  // }
+  const { toggleTheme, theme } = useContext(ThemeContext)
+
+  const toggleMenu = () => {
+    setShow(!show)
+    console.log(show)
   }
+
+  // useEffect(() => {
+  //   window.onclick = (event) => {
+  //     console.log(event, 'bb')
+  //     if (event.isTrusted && show === false) {
+  //       setShow(true)
+  //       console.log('jjjd')
+  //     }
+  //   }
+  // }, [])
   return (
-    <div className="fixed z-20 flex items-center justify-between w-full px-7 sm:px-60 py-7 backdrop-blur-md bg-black/55 ">
+    <div
+      className={`fixed z-20  flex items-center justify-between w-full px-7 sm:px-60 py-7 backdrop-blur-md ${
+        theme === 'dark' ? 'bg-gray-800 text-[#fff]' : 'bg-gray-100/50'
+      }  `}
+    >
       <div
         className=" cursor-pointer border px-4 py-2 border-solid border-[1px] border-[#b5b5b5] rounded-full shadow-lg mr-10"
         onClick={toggleTheme}
@@ -35,11 +57,34 @@ export default function Navbar() {
           <li className="mx-4">
             <Link href="/projects">Projects</Link>
           </li>
-          <li className="p-2 bg-gray-300 rounder">
+          <li className="p-2 bg-gray-300 rounder" onClick={toggleMenu}>
             {' '}
             <FiMenu />{' '}
           </li>
         </ul>
+        <div
+          className={`absolute ${
+            !show ? 'hidden' : ''
+          }  top-[5rem] left-[2.5%] w-[95%] rounded bg-neutral-100 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]`}
+        >
+          <ul className="px-2">
+            <li className="py-4 border-t-0 font-bold px-4">
+              <Link href="/blog">Blog</Link>
+            </li>
+            <li className="py-4 border-t font-bold px-4">
+              <Link href="/about">About</Link>
+            </li>
+            <li className="py-4 border-t font-bold px-4">
+              <Link href="/contact">Contact</Link>
+            </li>
+            <li className="py-4 border-t font-bold px-4">
+              <Link href="/dashbord">Dashbord</Link>
+            </li>
+            <li className="py-4 border-t font-bold px-4">
+              <Link href="/testimonies">Testimonies</Link>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   )
