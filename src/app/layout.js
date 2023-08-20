@@ -1,9 +1,10 @@
 'use client'
 import './globals.css'
-import { Inter } from 'next/font/google' 
+import { Inter } from 'next/font/google'
 import Footer from '../components/Footer'
-import { useState, useEffect } from 'react'
+import { ThemeProvider } from '../utils/context'
 import Navbar from '../components/Navbar'
+import { styled } from 'styled-components'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,15 +14,20 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  const Body = styled.body`
+    font-family: ${inter.family};
+  `
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <div>
-          <Navbar />
-          <main>{children}</main>
-          <Footer />
-        </div>
-      </body>
+      <ThemeProvider>
+        <body className={inter.className}>
+          <div>
+            <Navbar />
+            <main>{children}</main>
+            <Footer />
+          </div>
+        </body>
+      </ThemeProvider>
     </html>
   )
 }
