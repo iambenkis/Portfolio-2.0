@@ -3,8 +3,8 @@ import { projects } from '../../data/projects'
 import { UpcommingProjects } from '../../data/projects'
 import Whatsapp from '../../components/Whatsapp'
 import { VscGithub } from 'react-icons/vsc'
-import { ThemeContext } from '../../utils/context'
-import { useContext } from 'react'
+// import { ThemeContext } from '../../utils/context'
+// import { useContext } from 'react'
 
 const Project = () => {
   // const { theme } = useContext(ThemeContext)
