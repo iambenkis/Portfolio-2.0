@@ -11,8 +11,8 @@ const footerObj = {
 
 export default function Footer() {
   return (
-    <footer className="w-full px-7 py-5 bg-neutral-100 dark:bg-gray-900 md:px-80">
-      <ul className="grid grid-cols-1 md:grid-cols-3 gap-3 flex justify-center text-gray-500 pt-5">
+    <footer className="w-full px-7 py-5 bg-neutral-100  dark:bg-gray-900 md:px-80">
+      <ul className="grid grid-cols-1 md:grid-cols-3 border-t-[2px] border-gray-300 dark:border-gray-900 gap-3 flex justify-center text-gray-500 pt-5">
         <li>
           <ul>
             {footerObj.pages.map((page, index) => (

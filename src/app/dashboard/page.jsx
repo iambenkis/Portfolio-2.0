@@ -60,11 +60,11 @@ export default function Dashboard() {
   // fetchGithub('https://api.github.com/user/repos')
   fetchGithub('https://api.github.com/user/followers')
   return (
-    <div className="px-7 pt-10 pb-20 bg-neutral-100">
-      <h2 className="mt-20 font-bold text-[#172b4d] text-2xl md:text-4xl mb-4">
+    <div className="px-7 md:px-80 pt-10 pb-20 bg-neutral-100 dark:bg-gray-900">
+      <h2 className="mt-20 dark:text-white font-bold text-[#172b4d] text-2xl md:text-4xl mb-4">
         Dashboard
       </h2>
-      <p className="text-[#172b4d] text-[15px]">
+      <p className="text-[#172b4d] text-[15px] dark:text-gray-500">
         This dashboard is created with NextJS _api routes converted to
         serverless functions that tracks various metrics across platforms like
         GitHub, Twitter, Spotify and more 🚀.

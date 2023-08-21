@@ -58,7 +58,7 @@ export default function About() {
                 <Image alt="about-ben" src={profile} className=" rounded" />
               </div>
               <div className="w-full pl-0 md:pl-10">
-                <p className="md:pt-7 py-5 text-justify text-[14px] dark:text-gray-500">
+                <p className="md:pt-7 py-6 text-justify text-[14px] dark:text-gray-500 border-b-1 border-gray-500">
                   I have completed the Microverse Curriculum , an online
                   training school where I have been codind 8 hours a day
                   remotely with other developers and have learned the skills of
