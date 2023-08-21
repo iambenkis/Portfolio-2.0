@@ -60,7 +60,7 @@ export default function Dashboard() {
   // fetchGithub('https://api.github.com/user/repos')
   fetchGithub('https://api.github.com/user/followers')
   return (
-    <div className="px-80 pt-10 pb-20 bg-neutral-100">
+    <div className="px-7 pt-10 pb-20 bg-neutral-100">
       <h2 className="mt-20 font-bold text-[#172b4d] text-2xl md:text-4xl mb-4">
         Dashboard
       </h2>
