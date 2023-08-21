@@ -109,10 +109,14 @@ export default function ProjectItems(props) {
           target="_blaket"
           className="p-[.7px] bg-gradient-to-r from-blue-400/50 to-transparent rounded-xl shadow-lg  hover:bg-gradient-to-r from-blue-200/50 to-yellow-200/25 transition duration-500"
         >
-          <div className="p-2 bg-neutral-100 rounded-xl w-full h-full hover:bg-gradient-to-r from-blue-200/50 to-yellow-200/25 transition duration-500">
-            <IoFastFood className="text-[#172b4d] text-3xl mx-2 my-4" />
-            <h3 className="font-bold">{project.name}</h3>
-            <p className="text-[#374151] my-2">{project.description}</p>
+          <div className="p-2 bg-neutral-100 dark:bg-gray-900 rounded-xl w-full h-full hover:bg-gradient-to-r from-blue-200/50 to-yellow-200/25 transition duration-500">
+            <IoFastFood className="text-gray-500 dark:text-white text text-3xl mx-2 my-4" />
+            <h3 className="font-bold text-black dark:text-white">
+              {project.name}
+            </h3>
+            <p className="text-gray-500 my-2 dark:text-white">
+              {project.description}
+            </p>
             <ul className="flex flex-wrap mt-4">
               {project.stacks &&
                 project.stacks.map((stack, index) => (
