@@ -25,7 +25,7 @@ export default function NavLinks() {
   ]
 
   return (
-    <div className="bg-neutral-100 flex space-x-4 px-4 justify-center border-solid border-[1px] border-[#b5b5b5] rounded-full shadow-lg">
+    <div className="bg-neutral-100 dark:bg-gray-900 flex space-x-4 px-4 justify-center border-solid border-[1px] border-[#b5b5b5] rounded-full shadow-lg">
       {links.map((navLink, index) => (
         <Link
           key={navLink.name}
@@ -49,7 +49,9 @@ export default function NavLinks() {
             )}
           </AnimatePresence>
 
-          <span className="relative z-10">{navLink.name}</span>
+          <span className="relative z-10 text-black dark:text-white">
+            {navLink.name}
+          </span>
         </Link>
       ))}
     </div>
