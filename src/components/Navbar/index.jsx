@@ -43,9 +43,9 @@ export default function Navbar() {
         onClick={toggleTheme}
       >
         {theme === 'light' ? (
-          <BiSolidMoon className="dark:text-white" />
+          <BiSolidMoon className="text-black dark:text-white" />
         ) : (
-          <MdOutlineLightMode className="dark:text-white" />
+          <MdOutlineLightMode className="text-black dark:text-white" />
         )}
       </div>
       <div className="nav-bar">
@@ -54,17 +54,21 @@ export default function Navbar() {
       <div className="mobile-nav">
         <ul className="flex items-center">
           <li className="dark:text-white">
-            <Link href="/">Home</Link>
+            <Link href="/" className="text-black">
+              Home
+            </Link>
           </li>
           <li className="mx-4 dark:text-white">
-            <Link href="/projects">Projects</Link>
+            <Link href="/projects" className="text-black">
+              Projects
+            </Link>
           </li>
           <li
             className="p-2 bg-gray-300 dark:bg-gray-700 rounder"
             onClick={toggleMenu}
           >
             {' '}
-            <FiMenu className="dark:text-white" />{' '}
+            <FiMenu className="text-black dark:text-white" />{' '}
           </li>
         </ul>
         <div

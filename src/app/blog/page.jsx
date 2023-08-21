@@ -31,7 +31,9 @@ export default function Blog() {
             key={blog.description}
             className="bg-[#eeeeeea2] dark:bg-gray-900 my-4 px-2 md:px-4 py-2 rounded border"
           >
-            <h2 className="font-bold dark:text-white">{blog.title}</h2>
+            <h2 className="font-bold text-black dark:text-white">
+              {blog.title}
+            </h2>
             <p className="text-gray-500">{blog.description}</p>
             <a
               href={blog.link}
