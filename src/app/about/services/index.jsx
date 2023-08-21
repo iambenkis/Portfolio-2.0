@@ -9,9 +9,10 @@ export default function Services() {
         </h3>
         <div>
           <div className="w-[100%] md:w-80">
-            <h4 className="font-bold  text-[36px] mb-4 uppercase">
-              I LIKE <span className="text-[#172b4d]">TO MAKE</span> THINGS EASY
-              AND FUN
+            <h4 className="font-bold  text-[36px] mb-4 uppercase dark:text-white">
+              I LIKE{' '}
+              <span className="text-[#172b4d] dark:text-gray-500">TO MAKE</span>{' '}
+              THINGS EASY AND FUN
             </h4>
             <ul>
               {about.map((item, index) => (
