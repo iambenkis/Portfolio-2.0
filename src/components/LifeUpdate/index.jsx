@@ -28,12 +28,16 @@ export default function LifeUpdate() {
               key={lifeupdate.title}
               className="border-b-[1px] mb-7 last:border-b-0"
             >
-              <h3 className="font-bold text-sx mb-4">{lifeupdate.year}</h3>
+              <h3 className="font-bold text-sx mb-4 dark:text-white">
+                {lifeupdate.year}
+              </h3>
               <span className="flex items-center mx-3 my-2">
                 <BsPatchCheckFill className="text-blue-700 mr-2" />
-                <h4 className="text-gray-900">{lifeupdate.title}</h4>
+                <h4 className="text-gray-900 dark:text-white">
+                  {lifeupdate.title}
+                </h4>
               </span>
-              <p className="ml-9 text-gray-700 mb-5">
+              <p className="ml-9 text-gray-700 mb-5 dark:text-gray-500">
                 {lifeupdate.description}
               </p>
             </li>
