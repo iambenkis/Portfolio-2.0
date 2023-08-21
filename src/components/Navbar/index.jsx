@@ -54,12 +54,12 @@ export default function Navbar() {
       <div className="mobile-nav">
         <ul className="flex items-center">
           <li className="dark:text-white">
-            <Link href="/" className="text-black">
+            <Link href="/" className="text-black dark:text-white">
               Home
             </Link>
           </li>
           <li className="mx-4 dark:text-white">
-            <Link href="/projects" className="text-black">
+            <Link href="/projects" className="text-black dark:text-white">
               Projects
             </Link>
           </li>
