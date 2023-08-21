@@ -14,12 +14,14 @@ export default function About() {
   }
 
   return (
-    <div className="w-full px-5 md:px-80 pt-20 pb-10 bg-neutral-100 relative">
+    <div className="w-full px-5 md:px-80 pt-20 pb-10 bg-neutral-100 dark:bg-gray-900 relative">
       <div className="">
         <div className="flex w-full">
           <h3
             className={`mt-10 font-bold ${
-              isActive === 1 ? 'text-[#172b4d]' : 'text-[#172b4d]/25'
+              isActive === 1
+                ? 'text-[#172b4d] dark:text-white'
+                : 'text-[#172b4d]/25 dark:text-gray-500'
             } text-[16px] mb-4 md:mr-4 mr-0 cursor-pointer`}
             onClick={() => toggleActive(1)}
           >
@@ -27,7 +29,9 @@ export default function About() {
           </h3>
           <h3
             className={`mt-10 font-bold ${
-              isActive === 2 ? 'text-[#172b4d]' : 'text-[#172b4d]/25'
+              isActive === 2
+                ? 'text-[#172b4d] dark:text-white'
+                : 'text-[#172b4d]/25 dark:text-gray-500'
             } text-[16px] mb-4 md:mr-4 mx-2 cursor-pointer`}
             onClick={() => toggleActive(2)}
           >
@@ -35,7 +39,9 @@ export default function About() {
           </h3>
           <h3
             className={`mt-10 font-bold ${
-              isActive === 3 ? 'text-[#172b4d]' : 'text-[#172b4d]/25'
+              isActive === 3
+                ? 'text-[#172b4d] dark:text-white'
+                : 'text-[#172b4d]/25 dark:text-gray-500'
             } text-[16px] mb-4 md:mr-4 mr-0 cursor-pointer`}
             onClick={() => toggleActive(3)}
           >
@@ -52,7 +58,7 @@ export default function About() {
                 <Image alt="about-ben" src={profile} className=" rounded" />
               </div>
               <div className="w-full pl-0 md:pl-10">
-                <p className="md:pt-7 py-5 text-justify text-[14px]">
+                <p className="md:pt-7 py-5 text-justify text-[14px] dark:text-gray-500">
                   I have completed the Microverse Curriculum , an online
                   training school where I have been codind 8 hours a day
                   remotely with other developers and have learned the skills of
@@ -61,19 +67,19 @@ export default function About() {
                 <div className="pt-5 px-2">
                   <div className="flex w-full">
                     <div className="flex flex-col items-center ">
-                      <h3 className="font-bold">01+</h3>
+                      <h3 className="font-bold dark:text-white">01+</h3>
                       <p className="text-gray-400 text-center text-xs uppercase">
                         Years experience
                       </p>
                     </div>
                     <div className="flex flex-col items-center ">
-                      <h3 className="font-bold">30+</h3>
+                      <h3 className="font-bold dark:text-white">30+</h3>
                       <p className="text-gray-400 text-center text-xs uppercase">
                         Completed projects
                       </p>
                     </div>
                     <div className="flex flex-col items-center ">
-                      <h3 className="font-bold ">01+</h3>
+                      <h3 className="font-bold dark:text-white">01+</h3>
                       <p className="text-gray-400 text-center text-xs uppercase">
                         freelance development
                       </p>
