@@ -1,13 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
 export default function Whatsapp() {
   return (
-    <section className="bg-blue-50 mx-7 md:mx-0 p-5 mt-10 border-blue-100 border rounded">
+    <section className="bg-blue-50 dark:bg-gray-900 mx-7 md:mx-0 p-5 mt-10 border-blue-100 dark:border-gray-800 border rounded">
       <div>
         <div className="border-b-[1px]  pb-5">
-          <h3 className="font-bold text-[20px] tracking-tight text-black dark:text-white">
+          <h3 className="font-bold  text-[20px] tracking-tight text-black dark:text-white">
             Want to hire me as a fullstack developerr? Let's discuss.
           </h3>
-          <p className="text-gray-600">
+          <p className="dark:text-white text-gray-600 pt-2">
             Drop your message and let's discuss about your project.
           </p>
           <a
@@ -20,19 +20,19 @@ export default function Whatsapp() {
           </a>
         </div>
         <div className="mt-5">
-          <p className="text-gray-600">
+          <p className="text-gray-600 dark:text-white">
             Drop in your email ID and I will get back to you.{' '}
           </p>
           <div className="relative my-5">
             <input
               type="email"
               autoComplete="email"
-              className="p-3 w-full rounded"
+              className="p-3 w-full rounded dark:bg-gray-800 dark:text-white"
               placeholder="benkisenge03@gmail.com"
             />
             <input
               type="button"
-              className="absolute right-1 top-[6.5px] bg-gray-100 rounded-lg px-7 py-[7px] cursor-pointer"
+              className="absolute right-1 top-[6.5px] bg-gray-100 rounded-lg px-7 py-[5.5px] cursor-pointer dark:bg-gray-700 dark:text-white"
               value="Send"
             />
           </div>
