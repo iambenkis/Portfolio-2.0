@@ -62,7 +62,7 @@ export default function About() {
                   I have completed the Microverse Curriculum , an online
                   training school where I have been codind 8 hours a day
                   remotely with other developers and have learned the skills of
-                  communication and teamwork
+                  communication and teamwork.
                 </p>
                 <div className="pt-5 px-2">
                   <div className="flex w-full">
