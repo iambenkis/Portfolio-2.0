@@ -41,7 +41,7 @@ export default function Skills() {
               </li>
             </ul>
             <h4 className="font-bold text-[#172b4d] text-[15px] dark:text-white">
-              Libraries && Frameworks && Tools
+              Libraries && Frameworks && Tools.
             </h4>
             <ul className="flex w-full mt-3 mb-4 p-1">
               <li className="bg-gray-500/25 rounded border w-[50px] h-[50px] flex justify-center items-center mr-3">
