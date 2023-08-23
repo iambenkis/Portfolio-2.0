@@ -1,67 +1,52 @@
 'use client'
 import { IoFastFood } from 'react-icons/io5'
+import { BiMoneyWithdraw } from 'react-icons/bi'
 
 export const projects = [
   {
-    name: 'React TailwindCSS Boilerplate',
+    name: 'Budget-app-with-rails',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptatum.',
-    stacks: [
-      'React',
-      'Next.js',
-      'TailwindCSS',
-      'React',
-      'Next.js',
-      'TailwindCSS',
-    ],
-    live: 'https://google.com',
-    source: 'https://github.com',
+      'A mobile web application where you can manage your budget: you have a list of transactions associated with a category so that you can see how much money you spent and on what.',
+    stacks: ['Ruby on Rails', 'Ruby', 'TailwindCSS', 'PostgreSQL'],
+    live: 'https://github.com/iambenkis/Budget-app-with-rails',
+    source: 'https://github.com/iambenkis/Budget-app-with-rails',
+    icon: '<BiMoneyWithdraw />',
   },
   {
-    name: 'Project 1',
+    name: 'Shiny-agency',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptatum.',
-    stacks: ['React', 'Next.js', 'TailwindCSS'],
-    live: 'https://google.com',
+      'Shiny agency is a react based application that heps you to identify your needs and associate it with the developer who can meet that need for you.',
+    stacks: ['React', 'Redux', 'CSS-in-JS', 'Rest API'],
+    live: 'https://enchanting-centaur-48a8eb.netlify.app/',
     source: 'https://github.com',
+    icon: '<BiMoneyWithdraw />',
   },
   {
-    name: 'Project 1',
+    name: 'Math magicians',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptatum.',
-    stacks: ['React', 'Next.js', 'TailwindCSS'],
+      'This is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to Make simple calculations and to Read a random math-related quote.',
+    stacks: ['React', 'Redux', 'Css', 'Saas'],
     live: 'https://google.com',
     source: 'https://github.com',
+    icon: '<BiMoneyWithdraw />',
   },
   {
-    name: 'React TailwindCSS Boilerplate',
+    name: 'Space-X',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptatum.',
-    stacks: [
-      'React',
-      'Next.js',
-      'TailwindCSS',
-      'React',
-      'Next.js',
-      'TailwindCSS',
-    ],
+      'Using a real live data from the SpaceX API. Space-X is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
+    stacks: ['React', 'Redux', 'Rest API', 'Css ', 'Saas'],
     live: 'https://google.com',
     source: 'https://github.com',
+    icon: '<BiMoneyWithdraw />',
   },
   {
-    name: 'Project 1',
+    name: 'School-library',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptatum.',
-    stacks: [
-      'React',
-      'Next.js',
-      'TailwindCSS',
-      'React',
-      'Next.js',
-      'TailwindCSS',
-    ],
-    live: 'https://google.com',
-    source: 'https://github.com',
+      'In this project, I build a school library app. In this initial step, I implement the classes to represent students and teachers. Build with Ruby',
+    stacks: ['Ruby', 'PostgreSQL'],
+    live: 'https://github.com/iambenkis/School-library',
+    source: 'https://github.com/iambenkis/School-library',
+    icon: '<BiMoneyWithdraw />',
   },
 ]
 
@@ -80,6 +65,7 @@ export const UpcommingProjects = [
     ],
     live: 'https://google.com',
     source: 'https://github.com',
+    icon: '<BiMoneyWithdraw />',
   },
   {
     name: 'Project 1',
@@ -88,6 +74,7 @@ export const UpcommingProjects = [
     stacks: ['React', 'Next.js', 'TailwindCSS'],
     live: 'https://google.com',
     source: 'https://github.com',
+    icon: '<BiMoneyWithdraw />',
   },
   {
     name: 'More projects coming soon',
@@ -96,6 +83,7 @@ export const UpcommingProjects = [
     // stacks: ['React', 'Next.js', 'TailwindCSS'],
     live: 'https://google.com',
     source: 'https://github.com',
+    icon: '<BiMoneyWithdraw />',
   },
 ]
 
@@ -110,7 +98,7 @@ export default function ProjectItems(props) {
           className="p-[.7px] bg-gradient-to-r from-blue-400/50 to-transparent rounded-xl shadow-lg  hover:bg-gradient-to-r from-blue-200/50 to-yellow-200/25 transition duration-500"
         >
           <div className="p-2 bg-neutral-100 dark:bg-gray-900 rounded-xl w-full h-full hover:bg-gradient-to-r from-blue-200/50 to-yellow-200/25 transition duration-500">
-            <IoFastFood className="text-gray-500 dark:text-white text text-3xl mx-2 my-4" />
+            <BiMoneyWithdraw className="text-gray-500 dark:text-white text text-3xl mx-2 my-4" />
             <h3 className="font-bold text-black dark:text-white">
               {project.name}
             </h3>
