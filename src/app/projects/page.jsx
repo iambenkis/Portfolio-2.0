@@ -23,7 +23,7 @@ const Project = () => {
             class="font-bold text-black-500 dark:text-white hover:underline"
             href="/blog"
           >
-            here
+            here.
           </a>{' '}
         </h2>
         <ProjectItems projects={projects} toDisplay={5} />
