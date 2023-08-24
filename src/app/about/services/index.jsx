@@ -4,7 +4,7 @@ export default function Services() {
   return (
     <div>
       <div className="">
-        <h3 className="side-text absolute origin-center rotate-90 underline  left-[15rem] mt-10 font-bold text-[#172b4d] text-sm mb-4 uppercase">
+        <h3 className="side-text absolute origin-center rotate-90 underline  left-[15rem] mt-10 font-bold text-[#172b4d] dark:text-white text-sm mb-4 uppercase">
           what i offer
         </h3>
         <div>
