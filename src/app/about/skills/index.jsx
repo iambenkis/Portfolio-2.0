@@ -6,7 +6,7 @@ export default function Skills() {
   return (
     <div className="">
       <div>
-        <h3 className="side-text absolute origin-center rotate-90 underline  left-[16rem] mt-10 font-bold text-[#172b4d] text-sm mb-4 uppercase">
+        <h3 className="side-text absolute origin-center rotate-90 underline dark:text-white  left-[16rem] mt-10 font-bold text-[#172b4d] text-sm mb-4 uppercase">
           what i do
         </h3>
         <div className="flex flex-col md:flex-row">
