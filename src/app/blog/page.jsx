@@ -1,21 +1,21 @@
 const blogs = [
   {
-    title: 'Blog title',
+    title: 'How to assess your quality code?',
     description:
-      'The article outlines different approaches to debugging such as using documentation, Google, logging, testing, and static analysis/types and linters. ',
-    link: 'https://blog.com',
+      'Numerous, or at least all 😂 remote jobs, require a developer to be able to write high-quality code. Have you noticed that? But you may wonder:...',
+    link: 'https://medium.com/@benkisenge03/how-to-assess-your-quality-code-76271440ceec',
   },
   {
-    title: 'Blog title',
+    title: 'Should developers Critique in Public during meetings?',
     description:
-      'The article outlines different approaches to debugging such as using documentation, Google, logging, testing, and static analysis/types and linters. ',
-    link: 'https://blog.com',
+      'Praise in public and critique in private when working as a team can help you to show your support, your consideration as well as your respect...',
+    link: 'https://medium.com/@benkisenge03/should-developers-critique-in-public-during-meetings-c8e732ad06cd',
   },
   {
-    title: 'Blog title',
+    title: 'Utilizing Context in React Using Hooks',
     description:
-      'The article outlines different approaches to debugging such as using documentation, Google, logging, testing, and static analysis/types and linters.',
-    link: 'https://blog.com',
+      'React introduced the Context API to solve the problem of sharing state among various nested components. However, using the Context API with…',
+    link: 'https://medium.com/@benkisenge03/utilizing-context-in-react-using-hooks-9666c4ff929f',
   },
 ]
 
