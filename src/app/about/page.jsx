@@ -50,7 +50,7 @@ export default function About() {
         </div>
         {isActive === 1 ? (
           <div>
-            <h3 className="side-text absolute origin-center rotate-90 underline translate-y-4 left-[15rem] mt-10 font-bold text-[#172b4d] text-sm mb-4 uppercase">
+            <h3 className="side-text absolute dark:text-white origin-center rotate-90 underline translate-y-4 left-[15rem] mt-10 font-bold text-[#172b4d] text-sm mb-4 uppercase">
               Introduction
             </h3>
             <div className="flex flex-col justify-center md:flex-row md:justify-between w-full md:px-10 px-0">
