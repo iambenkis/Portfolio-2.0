@@ -29,7 +29,7 @@ const Project = () => {
         <ProjectItems projects={projects} toDisplay={5} />
         <a
           type="button"
-          class="flex w-[50%] md:w-[20%] px-5 md:px-5  justify-center items-center text-sm my-4 mx-auto py-[8px] border border-gray-300 rounded-md font-medium text-gray-900 dark:text-gray-100 hover:bg-gradient-to-r from-blue-200/50 to-yellow-200/25 transition duration-500 hover-underlined"
+          class="flex w-[50%] md:w-[30%] px-5 md:px-5  justify-center items-center text-sm my-4 mx-auto py-[8px] border border-gray-300 rounded-md font-medium text-gray-900 dark:text-gray-100 hover:bg-gradient-to-r from-blue-200/50 to-yellow-200/25 transition duration-500 hover-underlined"
           href="https://github.com/iambenkis"
           target="_blank"
         >
