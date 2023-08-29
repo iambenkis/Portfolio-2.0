@@ -52,26 +52,19 @@ export const projects = [
 
 export const UpcommingProjects = [
   {
-    name: 'React TailwindCSS Boilerplate',
+    name: 'Betsalel ships',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptatum.',
-    stacks: [
-      'React',
-      'Next.js',
-      'TailwindCSS',
-      'React',
-      'Next.js',
-      'TailwindCSS',
-    ],
+      'A web application that offers a range of features designed to simify billing processes.',
+    stacks: ['React', 'TailwindCSS', 'Redux', 'Node.js', 'Mongodb'],
     live: 'https://google.com',
     source: 'https://github.com',
     icon: '<BiMoneyWithdraw />',
   },
   {
-    name: 'Project 1',
+    name: 'University Management System',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptatum.',
-    stacks: ['React', 'Next.js', 'TailwindCSS'],
+      'An application that allows students to register for courses, view their grades, and view their schedule. It also allows professors to view their schedule and add grades for students.',
+    stacks: ['React', 'Redux', 'TailwindCSS', 'Ruby on Rails', 'PostgreSQL'],
     live: 'https://google.com',
     source: 'https://github.com',
     icon: '<BiMoneyWithdraw />',
@@ -79,7 +72,7 @@ export const UpcommingProjects = [
   {
     name: 'More projects coming soon',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptatum.',
+      'I get ideas all day,  All of them are updated here as soon as I start working on them.',
     // stacks: ['React', 'Next.js', 'TailwindCSS'],
     live: 'https://google.com',
     source: 'https://github.com',

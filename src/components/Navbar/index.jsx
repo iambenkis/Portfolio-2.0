@@ -34,9 +34,10 @@ export default function Navbar() {
   //     }
   //   }
   // }, [])
+
   return (
     <div
-      className={`fixed z-20  flex items-center justify-between w-full px-7 sm:px-60 py-7 backdrop-blur-md bg-gray-100/50  dark:bg-gray-900`}
+      className={`fixed z-20  flex items-center justify-between w-full px-7 sm:px-7 md:px-10 lg:px-60   py-7 backdrop-blur-md bg-gray-100/50  dark:bg-gray-900`}
     >
       <div
         className=" cursor-pointer border px-4 py-2 border-solid border-[1px] border-[#b5b5b5] rounded-full shadow-lg mr-10"

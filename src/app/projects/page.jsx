@@ -9,7 +9,7 @@ import { VscGithub } from 'react-icons/vsc'
 const Project = () => {
   // const { theme } = useContext(ThemeContext)
   return (
-    <div className="bg-neutral-100 dark:bg-gray-900 py-10 md:px-80">
+    <div className="bg-neutral-100 dark:bg-gray-900 py-10 sm:px-10 px-5 md:px-20 lg:px-80">
       <div className="pb-10 px-7 pt-10 mt-10">
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 text-black dark:text-white">
           Projects
