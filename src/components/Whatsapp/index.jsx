@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 export default function Whatsapp() {
   return (
-    <section className="bg-blue-50 dark:bg-gray-900 mx-7 md:mx-0 p-5 mt-10 border-blue-100 dark:border-gray-800 border rounded">
+    <section className="bg-blue-50 dark:bg-gray-900 mx-5 md:mx-0 p-5 mt-10 border-blue-100 dark:border-gray-800 border rounded">
       <div>
         <div className="border-b-[1px]  pb-5">
           <h3 className="font-bold  text-[20px] tracking-tight text-black dark:text-white">
@@ -24,17 +24,17 @@ export default function Whatsapp() {
             Drop in a message on email and I will get back to you.{' '}
           </p>
           <div className="relative my-5">
-            <div className="flex">
+            <div className="flex flex-col  sm:flex-row">
               <input
                 type="text"
                 autoComplete="name"
-                className="p-3 w-full mr-2 rounded dark:bg-gray-800 dark:text-white"
+                className="p-3 w-full mr-2  rounded dark:bg-gray-800 dark:text-white"
                 placeholder="benjamin kisenge"
               />
               <input
                 type="email"
                 autoComplete="email"
-                className="p-3 w-full rounded dark:bg-gray-800 dark:text-white"
+                className="p-3 w-full mt-2 sm:mt-0 rounded dark:bg-gray-800 dark:text-white"
                 placeholder="benkisenge03@gmail.com"
               />
             </div>
