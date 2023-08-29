@@ -23,33 +23,40 @@ export default function Whatsapp() {
           <p className="text-gray-600 dark:text-white">
             Drop in a message on email and I will get back to you.{' '}
           </p>
-          <div className="relative my-5">
-            <div className="flex flex-col  sm:flex-row">
-              <input
-                type="text"
-                autoComplete="name"
-                className="p-3 w-full mr-2  rounded dark:bg-gray-800 dark:text-white"
-                placeholder="benjamin kisenge"
+          <form action="https://formspree.io/f/xeqnbaww" method="POST">
+            <div className="relative my-5">
+              <div className="flex flex-col  sm:flex-row">
+                <input
+                  type="text"
+                  autoComplete="name"
+                  name="Name"
+                  className="p-3 w-full mr-2  rounded dark:bg-gray-800 dark:text-white"
+                  placeholder="benjamin kisenge"
+                  required
+                />
+                <input
+                  type="email"
+                  name="Email"
+                  autoComplete="email"
+                  className="p-3 w-full mt-2 sm:mt-0 rounded dark:bg-gray-800 dark:text-white"
+                  placeholder="benkisenge03@gmail.com"
+                  required
+                />
+              </div>
+              <textarea
+                className="w-full p-3 mt-2 rounded dark:bg-gray-800 dark:text-white"
+                placeholder="Your message"
+                name="Message"
+                rows="2"
+                cols="50"
               />
               <input
-                type="email"
-                autoComplete="email"
-                className="p-3 w-full mt-2 sm:mt-0 rounded dark:bg-gray-800 dark:text-white"
-                placeholder="benkisenge03@gmail.com"
+                type="submit"
+                className="w-full bg-neutral-100 text-black rounded-lg px-7 py-[5.5px] cursor-pointer dark:bg-gray-700 dark:text-white"
+                value="Send"
               />
             </div>
-            <textarea
-              className="w-full p-3 mt-2 rounded dark:bg-gray-800 dark:text-white"
-              placeholder="Your message"
-              rows="2"
-              cols="50"
-            />
-            <input
-              type="button"
-              className="w-full bg-neutral-100 text-black rounded-lg px-7 py-[5.5px] cursor-pointer dark:bg-gray-700 dark:text-white"
-              value="Send"
-            />
-          </div>
+          </form>
         </div>
       </div>
     </section>
