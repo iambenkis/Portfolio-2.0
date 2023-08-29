@@ -54,7 +54,7 @@ const Certificates = () => {
             className="p-[.7px] bg-gradient-to-r from-blue-400/50 to-transparent rounded-xl shadow-lg  hover:bg-gradient-to-r from-blue-200/50 to-yellow-200/25 transition duration-500"
           >
             <div className="p-2 bg-neutral-100 dark:bg-gray-900 rounded-xl w-full h-full hover:bg-gradient-to-r from-blue-200/50 to-yellow-200/25 transition duration-500">
-              <Image alt="cred-1" src={credential.image} />
+              <Image alt={`cred-${index}`} src={credential.image} />
             </div>
           </a>
         ))}
