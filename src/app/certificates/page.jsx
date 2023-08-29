@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import profile from '../../../public/assets/capture.jpg'
+import profile from '../../../public/assets/Capture-rb.jpg'
 import html from '../../../public/assets/Capture-ht.jpg'
 import ftd from '../../../public/assets/Capture-fs.jpg'
 import capstone from '../../../public/assets/Capture-fc.jpg'
