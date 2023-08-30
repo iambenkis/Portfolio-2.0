@@ -7,7 +7,7 @@ export const projects = [
     name: 'Budget-app-with-rails',
     description:
       'A mobile web application where you can manage your budget: you have a list of transactions associated with a category so that you can see how much money you spent and on what.',
-    stacks: ['Ruby on Rails', 'Ruby', 'TailwindCSS', 'PostgreSQL'],
+    stacks: ['Ruby on Rails', 'Ruby', 'TailwindCSS', 'PostgreSQL', 'jwt'],
     live: 'https://github.com/iambenkis/Budget-app-with-rails',
     source: 'https://github.com/iambenkis/Budget-app-with-rails',
     icon: '<BiMoneyWithdraw />',

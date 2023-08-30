@@ -42,7 +42,7 @@ const credentials = [
 const Certificates = () => {
   return (
     <div className="px-7 pt-20 pb-10 bg-neutral-100 dark:bg-gray-900 sm:px-10 md:px-20 lg:px-80">
-      <h2 className="mt-10 font-bold text-[#172b4d] text-2xl md:text-4xl mb-4 dark:text-white">
+      <h2 className="mt-10 font-bold text-black text-2xl md:text-4xl mb-4 dark:text-white">
         Here is my digital credentials from Microverse.
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
