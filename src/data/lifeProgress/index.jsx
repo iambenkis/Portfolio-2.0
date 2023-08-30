@@ -4,11 +4,11 @@ export const lifeupdates = [
 
     description: [
       {
-        text: 'I started my first job as a Software Engineer at a startup.',
+        text: 'Experienced Full-Stack development with 3 years of experience. I am proficient in software development, testing, and debugging. My skills in JavaScript/TypeScript, ReactJS/NextJs, Tailwind CSS,  Restful APIs, Ruby  with Ruby on Rails, PostgreSQL.',
         title: 'Full-Stack Applications 🚀',
       },
       {
-        text: 'I started my first job as a Software Engineer at a startup.',
+        text: ' Spent 1300+  hours mastering algorithms, data structures, and full-stack development while simultaneously developing projects with Ruby, Rails, JavaScript, React, and Redux.',
         title: 'Graduated from Microverse 🎓',
       },
     ],
@@ -18,15 +18,15 @@ export const lifeupdates = [
 
     description: [
       {
-        text: 'I started my first job as a Software Engineer at a startup.',
+        text: 'Conduct 20+ weekly code reviews for students globally, focusing on projects involving HTML,  CSS, JavaScript,  ReactJS, Ruby, Ruby on Rails.',
         title: 'Promoted as a Code Reviewer',
       },
       {
-        text: 'I started my first job as a Software Engineer at a startup.',
+        text: ' Completed electronic and telecomunication with a first class. Again, a big achievement for me.',
         title: 'Graduated from University 🎓',
       },
       {
-        text: 'I started my first job as a Software Engineer at a startup.',
+        text: 'Guided junior developers in best practices for code organization, resulting in improved website scalability & performance increases of 99%',
         title: 'Mentor web developer students at Microverse 🥳',
       },
     ],
@@ -35,10 +35,6 @@ export const lifeupdates = [
     year: '2021',
 
     description: [
-      {
-        text: 'I got an A2 diploma in Electronic with 65%. Again, a big achievement for me.',
-        title: 'Introduced to web development 📚',
-      },
       {
         text: 'Be a part of a team of 6 engineers in the design and development of IoT solutions for industrial automation',
         title: 'Integrate RLCG company',
