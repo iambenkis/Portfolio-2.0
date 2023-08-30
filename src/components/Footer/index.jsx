@@ -28,7 +28,7 @@ const footerObj = {
 
 export default function Footer() {
   return (
-    <footer className="w-full px-10 py-5 bg-neutral-100  dark:bg-gray-900 sm:px-10 md:px-20 lg:px-80">
+    <footer className="w-full px-5 py-5 bg-neutral-100  dark:bg-gray-900 sm:px-10 md:px-20 lg:px-80">
       <ul className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 border-t-[1px] border-gray-300 dark:border-gray-300 gap-3 flex justify-center text-gray-500 pt-5">
         <li>
           <ul>

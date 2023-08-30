@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 export default function Whatsapp() {
   return (
-    <section className="bg-blue-50 dark:bg-gray-900 mx-5 md:mx-0 p-5 mt-10 border-blue-100 dark:border-gray-800 border-2 rounded">
+    <section className="bg-blue-50 dark:bg-gray-900 md:mx-0 p-5 mt-10 border-blue-100 dark:border-gray-800 border-2 rounded">
       <div>
         <div className="border-b-[1px]  pb-5">
           <h3 className="font-bold  text-[20px] tracking-tight text-black dark:text-white">

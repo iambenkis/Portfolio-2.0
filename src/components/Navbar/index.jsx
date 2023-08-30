@@ -93,7 +93,7 @@ export default function Navbar() {
                 Contact
               </Link>
             </li>
-            <li className="py-4 border-t font-bold px-4">
+            {/* <li className="py-4 border-t font-bold px-4">
               <Link href="/dashbord" className="text-black dark:text-white">
                 Dashbord
               </Link>
@@ -102,7 +102,7 @@ export default function Navbar() {
               <Link href="/testimonies" className="text-black dark:text-white">
                 Testimonies
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
