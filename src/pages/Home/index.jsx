@@ -30,6 +30,13 @@ export default function Header() {
           >
             Linkedin
           </a>{' '}
+          or{' '}
+          <a
+            className="font-bold text-black-400 dark:text-white"
+            href="/contact"
+          >
+            here
+          </a>{' '}
           for Coffee Chat.
         </p>
       </div>
