@@ -1,11 +1,11 @@
 import Image from 'next/image'
-import profile from '../../../public/assets/Capture-rb.jpg'
-import html from '../../../public/assets/Capture-ht.jpg'
-import ftd from '../../../public/assets/Capture-fs.jpg'
-import capstone from '../../../public/assets/Capture-fc.jpg'
-import ror from '../../../public/assets/Capture-ror.jpg'
-import react from '../../../public/assets/Capture-react.jpg'
-import javaScript from '../../../public/assets/Capture-js.jpg'
+import profile from './Capture-rb.jpg'
+import html from './Capture-ht.jpg'
+import ftd from './Capture-fs.jpg'
+import capstone from './Capture-fc.jpg'
+import ror from './Capture-ror.jpg'
+import react from './Capture-react.jpg'
+import javaScript from './Capture-js.jpg'
 
 // https://www.credential.net/e82b9b24-565c-49b0-8659-4333ec62c704#gs.4zka86
 const credentials = [
