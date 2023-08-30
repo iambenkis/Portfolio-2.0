@@ -10,7 +10,9 @@ export default function Home() {
         <Header />
         <Projects />
         <LifeUpdate />
-        <Whatsapp />
+        <div className="px-5">
+          <Whatsapp />
+        </div>
       </div>
     </main>
   )

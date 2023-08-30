@@ -42,7 +42,9 @@ const Project = () => {
         </h3>
         <ProjectItems projects={UpcommingProjects} />
       </div>
-      <Whatsapp />
+      <div className="px-5">
+        <Whatsapp />
+      </div>
     </div>
   )
 }
