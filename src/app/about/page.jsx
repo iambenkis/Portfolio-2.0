@@ -67,7 +67,7 @@ export default function About() {
                 <div className="pt-5 px-2">
                   <div className="flex w-full">
                     <div className="flex flex-col items-center ">
-                      <h3 className="font-bold dark:text-white">03+</h3>
+                      <h3 className="font-bold dark:text-white">02+</h3>
                       <p className="text-gray-400 text-center text-xs uppercase">
                         Years experience
                       </p>
