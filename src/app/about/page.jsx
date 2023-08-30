@@ -27,7 +27,7 @@ export default function About() {
           >
             Introduction
           </h3>
-          <h3
+          {/* <h3
             className={`mt-10 font-bold ${
               isActive === 2
                 ? 'text-[#172b4d] dark:text-white'
@@ -36,7 +36,7 @@ export default function About() {
             onClick={() => toggleActive(2)}
           >
             My services
-          </h3>
+          </h3> */}
           <h3
             className={`mt-10 font-bold ${
               isActive === 3
@@ -67,7 +67,7 @@ export default function About() {
                 <div className="pt-5 px-2">
                   <div className="flex w-full">
                     <div className="flex flex-col items-center ">
-                      <h3 className="font-bold dark:text-white">01+</h3>
+                      <h3 className="font-bold dark:text-white">03+</h3>
                       <p className="text-gray-400 text-center text-xs uppercase">
                         Years experience
                       </p>
@@ -79,7 +79,7 @@ export default function About() {
                       </p>
                     </div>
                     <div className="flex flex-col items-center ">
-                      <h3 className="font-bold dark:text-white">01+</h3>
+                      <h3 className="font-bold dark:text-white">03+</h3>
                       <p className="text-gray-400 text-center text-xs uppercase">
                         freelance development
                       </p>
