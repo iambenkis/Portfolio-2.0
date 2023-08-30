@@ -21,7 +21,7 @@ const Project = () => {
           Chat on{' '}
           <a
             class="font-bold text-black-500 dark:text-white hover:underline"
-            href="/blog"
+            href="/contact"
           >
             here.
           </a>{' '}
