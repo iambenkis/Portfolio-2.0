@@ -20,7 +20,7 @@ const footerObj = {
     },
     {
       name: 'Medium',
-      link: 'https://www.medium.com/@iambenkis',
+      link: 'https://medium.com/@benkisenge03',
     },
   ],
   more: ['testimonials', , 'certificates', 'contact'],
