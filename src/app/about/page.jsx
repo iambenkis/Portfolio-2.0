@@ -86,7 +86,11 @@ export default function About() {
                     </div>
                   </div>
                 </div>
-                <a className="cursor-pointer flex items-center text-[#fff] bg-[#172b4d]  px-2 py-2 rounded mt-5 md:w-[40%] w-[50%] text-center ">
+                <a
+                  href="https://docs.google.com/document/d/15nKgCxs-z0-htEzjxQEuKUsEn6zFvfrHggQsAIudWoA/edit?usp=sharing"
+                  target="_blank"
+                  className="cursor-pointer flex items-center text-[#fff] bg-[#172b4d]  px-2 py-2 rounded mt-5 md:w-[40%] w-[50%] text-center "
+                >
                   Dowload CV <BiDownload className="text-xl" />
                 </a>
               </div>
