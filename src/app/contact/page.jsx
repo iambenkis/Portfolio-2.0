@@ -1,5 +1,6 @@
 import { AiFillGithub, AiOutlineTwitter } from 'react-icons/ai'
 import { FaLinkedin, FaMedium } from 'react-icons/fa'
+import { BiDownload } from 'react-icons/bi'
 import Whatsapp from '../../components/Whatsapp'
 
 const Contact = () => {
@@ -13,7 +14,7 @@ const Contact = () => {
       </p>
       <div className="px-0 md:px-5">
         <a
-          href="/"
+          href="https://github.com/iambenkis"
           target="_blank"
           className="bg-[#eeeeeea2] dark:bg-gray-900 my-4 px-2 md:px-4 py-2 rounded border-2 flex items-center"
         >
@@ -21,7 +22,7 @@ const Contact = () => {
           <p className="font-bold text-black dark:text-white">Github</p>
         </a>
         <a
-          href="/"
+          href="https://www.linkedin.com/in/benjamin-kisenge/"
           target="_blank"
           className="bg-[#eeeeeea2] dark:bg-gray-900 my-4 px-2 md:px-4 py-2 rounded border-2 flex items-center"
         >
@@ -29,7 +30,7 @@ const Contact = () => {
           <p className="font-bold text-black dark:text-white">Linkedin</p>
         </a>
         <a
-          href="/"
+          href="https://twitter.com/iambenkis"
           target="_blank"
           className="bg-[#eeeeeea2] dark:bg-gray-900 my-4 px-2 md:px-4 py-2 rounded border-2 flex items-center"
         >
@@ -37,12 +38,20 @@ const Contact = () => {
           <p className="font-bold text-black dark:text-white">Twitter</p>
         </a>
         <a
-          href="/"
+          href="https://medium.com/@benkisenge03"
           target="_blank"
           className="bg-[#eeeeeea2] dark:bg-gray-900 my-4 px-2 md:px-4 py-2 rounded border-2 flex items-center"
         >
           <FaMedium className="mr-2 dark:text-white" />
           <p className="font-bold text-black dark:text-white">Medium</p>
+        </a>
+        <a
+          href="https://docs.google.com/document/d/15nKgCxs-z0-htEzjxQEuKUsEn6zFvfrHggQsAIudWoA/edit?usp=sharing"
+          target="_blank"
+          className="  bg-[#eeeeeea2] dark:bg-gray-900 my-4 px-2 md:px-4 py-2 rounded border-2 flex items-center "
+        >
+          <BiDownload className="mr-2 dark:text-white" />
+          <p className="font-bold text-black dark:text-white">Dowload Resume</p>
         </a>
         <Whatsapp />
       </div>
