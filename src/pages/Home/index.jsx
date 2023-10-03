@@ -18,9 +18,9 @@ export default function Header() {
           </a>
           <></>
         </p>
-        <p className="text-zinc-600 mt-4 dark:text-zinc-400">
+        <p className="text-[14px] text-zinc-600 mt-4 dark:text-zinc-400">
           I’m a{' '}
-          <span className="bg-gray-200 dark:bg-zinc-700/50 px-1 py-[1px] dark:text-white">
+          <span className="bg-gray-200  dark:bg-zinc-700/50 px-1 py-[1px] dark:text-white">
             Fullstack developer
           </span>
           ! I can help you build a product, feature, or website. Find me on{' '}
