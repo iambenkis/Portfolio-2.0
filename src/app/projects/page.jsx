@@ -14,7 +14,7 @@ const Project = () => {
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 text-black dark:text-white">
           Projects
         </h3>
-        <h2 class="prose text-gray-500 dark:text-gray-400 mb-16">
+        <h2 class="prose text-[14px] text-gray-500 dark:text-gray-400 mb-16">
           I ve meticulously curated a portfolio that mirrors my achievements and
           passions, spanning commercial ventures and deeper explorations,
           revealing my multifaceted development skills. Get in touch for Coffee
