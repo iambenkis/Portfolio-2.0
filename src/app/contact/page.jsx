@@ -5,7 +5,7 @@ import Whatsapp from '../../components/Whatsapp'
 
 const Contact = () => {
   return (
-    <div className="px-5 pt-20 pb-10 bg-neutral-100 dark:bg-gray-900 sm:px-10 md:px-20 lg:px-80">
+    <div className="px-5 text-[14px] pt-20 pb-10 bg-neutral-100 dark:bg-gray-900 sm:px-10 md:px-20 lg:px-80">
       <h2 className="mt-10 font-bold text-[#172b4d] text-2xl md:text-4xl mb-4 dark:text-white">
         Links
       </h2>
