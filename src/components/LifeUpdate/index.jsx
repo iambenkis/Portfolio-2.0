@@ -48,7 +48,7 @@ export default function LifeUpdate() {
                       {desc.title}
                     </h4>
                   </span>
-                  <p className="ml-9 text-gray-700 mb-5 dark:text-gray-500">
+                  <p className="ml-9 text-[14px] text-gray-700 mb-5 dark:text-gray-500">
                     {desc.text}
                   </p>
                 </div>
