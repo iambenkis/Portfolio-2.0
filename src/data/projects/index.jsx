@@ -1,6 +1,10 @@
 'use client'
 import { IoFastFood } from 'react-icons/io5'
 import { BiMoneyWithdraw } from 'react-icons/bi'
+import { FaRocket } from 'react-icons/fa'
+import { RiComputerLine } from 'react-icons/ri'
+import { PiMathOperationsFill } from 'react-icons/pi'
+import { IoLibrary } from 'react-icons/io5'
 
 export const projects = [
   {
@@ -10,7 +14,7 @@ export const projects = [
     stacks: ['Ruby on Rails', 'Ruby', 'TailwindCSS', 'PostgreSQL', 'jwt'],
     live: 'https://github.com/iambenkis/Budget-app-with-rails',
     source: 'https://github.com/iambenkis/Budget-app-with-rails',
-    icon: '<BiMoneyWithdraw />',
+    icon: 'BiMoneyWithdraw',
   },
   {
     name: 'Shiny-agency',
@@ -19,7 +23,7 @@ export const projects = [
     stacks: ['React', 'Redux', 'CSS-in-JS', 'Rest API'],
     live: 'https://enchanting-centaur-48a8eb.netlify.app/',
     source: 'https://github.com',
-    icon: '<BiMoneyWithdraw />',
+    icon: 'RiComputerLine',
   },
   {
     name: 'Math magicians',
@@ -28,7 +32,7 @@ export const projects = [
     stacks: ['React', 'Redux', 'Css', 'Saas'],
     live: 'https://google.com',
     source: 'https://github.com',
-    icon: '<BiMoneyWithdraw />',
+    icon: 'PiMathOperationsFill',
   },
   {
     name: 'Space-X',
@@ -37,7 +41,7 @@ export const projects = [
     stacks: ['React', 'Redux', 'Rest API', 'Css ', 'Saas'],
     live: 'https://google.com',
     source: 'https://github.com',
-    icon: '<BiMoneyWithdraw />',
+    icon: 'FaRocket',
   },
   {
     name: 'School-library',
@@ -46,7 +50,7 @@ export const projects = [
     stacks: ['Ruby', 'PostgreSQL'],
     live: 'https://github.com/iambenkis/School-library',
     source: 'https://github.com/iambenkis/School-library',
-    icon: '<BiMoneyWithdraw />',
+    icon: 'IoLibrary',
   },
 ]
 
@@ -58,7 +62,7 @@ export const UpcommingProjects = [
     stacks: ['React', 'TailwindCSS', 'Redux', 'Node.js', 'Mongodb'],
     live: 'https://google.com',
     source: 'https://github.com',
-    icon: '<BiMoneyWithdraw />',
+    icon: 'BiMoneyWithdraw',
   },
   {
     name: 'University Management System',
@@ -67,7 +71,7 @@ export const UpcommingProjects = [
     stacks: ['React', 'Redux', 'TailwindCSS', 'Ruby on Rails', 'PostgreSQL'],
     live: 'https://google.com',
     source: 'https://github.com',
-    icon: '<BiMoneyWithdraw />',
+    icon: 'BiMoneyWithdraw',
   },
   {
     name: 'More projects coming soon',
@@ -76,11 +80,19 @@ export const UpcommingProjects = [
     // stacks: ['React', 'Next.js', 'TailwindCSS'],
     live: 'https://google.com',
     source: 'https://github.com',
-    icon: '<BiMoneyWithdraw />',
+    icon: 'BiMoneyWithdraw',
   },
 ]
 
 export default function ProjectItems(props) {
+  const iconStyle = 'text-gray-500 dark:text-white text text-3xl mx-2 my-4'
+  const iconMapping = {
+    BiMoneyWithdraw: <BiMoneyWithdraw className={`${iconStyle}`} />,
+    FaRocket: <FaRocket className={`${iconStyle}`} />,
+    RiComputerLine: <RiComputerLine className={`${iconStyle}`} />,
+    PiMathOperationsFill: <PiMathOperationsFill className={`${iconStyle}`} />,
+    IoLibrary: <IoLibrary className={`${iconStyle}`} />,
+  }
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
       {props.projects.slice(0, props.toDisplay).map((project, index) => (
@@ -88,10 +100,11 @@ export default function ProjectItems(props) {
           key={index}
           href={project.live}
           target="_blaket"
-          className="p-[.7px] bg-gradient-to-r from-blue-400/50 to-transparent rounded-xl shadow-lg  hover:bg-gradient-to-r from-blue-200/50 to-yellow-200/25 transition duration-500"
+          className="p-[.7px] text-[14px] bg-gradient-to-r from-blue-400/50 to-transparent rounded-xl shadow-lg  hover:bg-gradient-to-r from-blue-200/50 to-yellow-200/25 transition duration-500"
         >
           <div className="p-2 bg-neutral-100 dark:bg-gray-900 rounded-xl w-full h-full hover:bg-gradient-to-r from-blue-200/50 to-yellow-200/25 transition duration-500">
-            <BiMoneyWithdraw className="text-gray-500 dark:text-white text text-3xl mx-2 my-4" />
+            {/* <BiMoneyWithdraw className="text-gray-500 dark:text-white text text-3xl mx-2 my-4" /> */}
+            {iconMapping[project.icon] && iconMapping[project.icon]}
             <h3 className="font-bold text-black dark:text-white">
               {project.name}
             </h3>
