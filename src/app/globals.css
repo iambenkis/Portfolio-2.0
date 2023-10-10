@@ -18,10 +18,28 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+}
+
+.mobile-nav {
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .side-text {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+
+  .nav-bar {
+    display: none;
+  }
 }
