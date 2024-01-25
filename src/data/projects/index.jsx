@@ -5,8 +5,30 @@ import { FaRocket } from 'react-icons/fa'
 import { RiComputerLine } from 'react-icons/ri'
 import { PiMathOperationsFill } from 'react-icons/pi'
 import { IoLibrary } from 'react-icons/io5'
+import { TbWorldWww } from 'react-icons/tb'
+import { FaSailboat } from 'react-icons/fa6'
+import { FaUniversity } from 'react-icons/fa'
+import { CgMoreO } from 'react-icons/cg'
 
 export const projects = [
+  {
+    name: 'CBT MINISTRIES INC',
+    description:
+      'Designed and developed the CBT MINISTRIES INC official website  the International School of Prophets RAMAH INSTITUTE dashboard',
+    stacks: ['React', 'TailwindCSS', 'Redux', 'Node.js', 'Mongodb'],
+    live: 'https://christopherbeleke.com',
+    source: 'https://github.com',
+    icon: 'TbWorldWww',
+  },
+  {
+    name: 'Betsalel ships',
+    description:
+      'A web application that offers a range of features designed to simify billing processes.',
+    stacks: ['React', 'TailwindCSS', 'Redux', 'Node.js', 'Mongodb'],
+    live: 'https://google.com',
+    source: 'https://github.com',
+    icon: 'FaSailboat',
+  },
   {
     name: 'Budget-app-with-rails',
     description:
@@ -56,22 +78,13 @@ export const projects = [
 
 export const UpcommingProjects = [
   {
-    name: 'Betsalel ships',
-    description:
-      'A web application that offers a range of features designed to simify billing processes.',
-    stacks: ['React', 'TailwindCSS', 'Redux', 'Node.js', 'Mongodb'],
-    live: 'https://google.com',
-    source: 'https://github.com',
-    icon: 'BiMoneyWithdraw',
-  },
-  {
     name: 'University Management System',
     description:
       'An application that allows students to register for courses, view their grades, and view their schedule. It also allows professors to view their schedule and add grades for students.',
     stacks: ['React', 'Redux', 'TailwindCSS', 'Ruby on Rails', 'PostgreSQL'],
     live: 'https://google.com',
     source: 'https://github.com',
-    icon: 'BiMoneyWithdraw',
+    icon: 'FaUniversity',
   },
   {
     name: 'More projects coming soon',
@@ -80,7 +93,7 @@ export const UpcommingProjects = [
     // stacks: ['React', 'Next.js', 'TailwindCSS'],
     live: 'https://google.com',
     source: 'https://github.com',
-    icon: 'BiMoneyWithdraw',
+    icon: 'CgMoreO',
   },
 ]
 
@@ -92,6 +105,10 @@ export default function ProjectItems(props) {
     RiComputerLine: <RiComputerLine className={`${iconStyle}`} />,
     PiMathOperationsFill: <PiMathOperationsFill className={`${iconStyle}`} />,
     IoLibrary: <IoLibrary className={`${iconStyle}`} />,
+    TbWorldWww: <TbWorldWww className={`${iconStyle}`} />,
+    FaSailboat: <FaSailboat className={`${iconStyle}`} />,
+    FaUniversity: <FaUniversity className={`${iconStyle}`} />,
+    CgMoreO: <CgMoreO className={`${iconStyle}`} />,
   }
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

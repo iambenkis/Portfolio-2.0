@@ -10,6 +10,7 @@ import {
   SiNetlify,
   SiJest,
   SiCss3,
+  SiPython,
 } from 'react-icons/si'
 import { IoLogoHtml5 } from 'react-icons/io'
 import { RiJavascriptFill } from 'react-icons/ri'
@@ -53,6 +54,9 @@ export default function Skills() {
               </li>
               <li className="bg-gray-500/25 rounded border w-[50px] h-[50px] flex justify-center items-center mr-3">
                 <TbBrandTypescript className="text-blue-600 text-2xl" />
+              </li>
+              <li className="bg-gray-500/25 rounded border w-[50px] h-[50px] flex justify-center items-center mr-3">
+                <SiPython className="text-yellow-400 text-2xl" />
               </li>
               <li className="bg-gray-500/25 rounded border w-[50px] h-[50px] flex justify-center items-center mr-3">
                 <DiRuby className="text-red-600 text-2xl" />

@@ -2,6 +2,7 @@ import Header from '../pages/Home'
 import Projects from '../components/Projects'
 import LifeUpdate from '../components/LifeUpdate'
 import Whatsapp from '../components/Whatsapp'
+import About from './about/page'
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       <div className="sm:px-10 lg:px-80  pb-10 pt-5 mt-40">
         <Header />
         <Projects />
-        <LifeUpdate />
+        {/* <LifeUpdate /> */}
         <div className="px-5">
           <Whatsapp />
         </div>
