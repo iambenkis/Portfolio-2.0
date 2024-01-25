@@ -13,6 +13,9 @@ export default function About() {
     setIsActive(index)
   }
 
+  const googleDriveLink =
+    'https://drive.google.com/file/d/1Zvhs-GFhGRelE2tJFQVmz0iKa8feKWVy/view?usp=sharing'
+
   return (
     <div className="w-full sm:px-10 px-5 md:px-20 lg:px-80 pt-20 pb-10 bg-neutral-100 dark:bg-gray-900 relative">
       <div className="">
@@ -66,13 +69,13 @@ export default function About() {
                 </p>
                 <div className="pt-5 px-2">
                   <div className="flex w-full">
-                    <div className="flex flex-col items-center ">
-                      <h3 className="font-bold dark:text-white">02+</h3>
+                    <div className="flex flex-col items-center">
+                      <h3 className="font-bold dark:text-white">03+</h3>
                       <p className="text-gray-400 text-center text-xs uppercase">
                         Years experience
                       </p>
                     </div>
-                    <div className="flex flex-col items-center ">
+                    <div className="flex flex-col items-center mx-3">
                       <h3 className="font-bold dark:text-white">30+</h3>
                       <p className="text-gray-400 text-center text-xs uppercase">
                         Completed projects
@@ -87,8 +90,9 @@ export default function About() {
                   </div>
                 </div>
                 <a
-                  href="https://docs.google.com/document/d/15nKgCxs-z0-htEzjxQEuKUsEn6zFvfrHggQsAIudWoA/edit?usp=sharing"
+                  href={`${googleDriveLink}&export=download`}
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="cursor-pointer flex items-center text-[#fff] bg-[#172b4d]  px-2 py-2 rounded mt-5 md:w-[40%] w-[50%] text-center "
                 >
                   Dowload CV <BiDownload className="text-xl" />
